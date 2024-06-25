@@ -38,6 +38,8 @@ process.stdin.on("data", function (data){
             }
         }
         process.exit()
+
+        
     }
     )
 })
