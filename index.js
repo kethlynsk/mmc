@@ -29,5 +29,16 @@ process.stdin.on("data", function (data){
                     }
                 }
 
-    process.exit()
-})})
+                i = menor
+
+        for(i; i > 0; i--) {
+            if(numero1 % i == 0 && numero2 % i ==0) {
+                console.log("MDC: " + i)
+                break;
+            }
+        }
+        process.exit()
+    }
+    )
+})
+
